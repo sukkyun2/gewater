@@ -1,0 +1,15 @@
+# IntelliJ project files
+.idea/
+*.iml
+
+# SpecStory session history (conversation logs, not part of the site)
+.specstory/
+
+# OS cruft
+.DS_Store
+
+# Node (in case build/build.js dependencies are ever added)
+node_modules/
+
+# Editor/log noise
+*.log

@@ -1,0 +1,171 @@
+/* 회사소개-인사말 */
+#intro { display: flex; flex-flow: column; align-items: center; padding: 120px 0; border-bottom: 1px solid #ccc; } 
+
+#intro h2 { font-size: 35px; font-weight: 700; margin-bottom: 70px; } 
+
+#intro .divWrap { max-width: 1400px; display: flex; justify-content: center; gap: 70px; } 
+
+#intro .image { width: 50%; border-radius: 30px; background: url(../img/intro3.png) no-repeat center/ cover; } 
+
+#intro .txt strong { font-size: 26px; line-height: 1.4; } 
+#intro .txt { width: 50%; height: 100%; margin-bottom: 0;}
+#intro .txt span { color: #64a23b; font-family: 'GmarketSansBold'; } 
+#intro .txt p { padding-top: 20px; font-size: 20px; line-height: 1.8; color: #3f3f3f; } 
+
+/* 회사소개-오시는길 */
+#guide,
+.p01-sub { display: flex; flex-flow: column; align-items: center; padding: 120px 0; border-bottom: 1px solid #ccc; } 
+
+#guide h2,
+.p01-sub h2 { font-size: 35px; font-weight: 700; margin-bottom: 70px; font-family: 'GmarketSansBold'; } 
+
+#guide .divWrap { display: flex; flex-flow: column; } 
+
+.divWrap .txt { padding: 50px; border: 1px solid #ccc; border-radius: 30px; margin-bottom: 50px; } 
+
+.divWrap .txt .txtWrap { display: flex; flex-wrap: wrap; justify-content: space-between; } 
+
+.divWrap .txt .txtWrap dl { width: 48%; display: flex; margin: 10px; } 
+
+.txtWrap dl dt { width: 8rem; font-size: 20px; font-weight: 600; text-transform: uppercase; } 
+
+.txtWrap dl dd { width: calc(100% - 8rem); padding-left: 1rem; font-size: 18px; color: #3f3f3f; } 
+
+/* 지도 스타일 */
+#daumRoughmapContainer1726734520785 { width: 100%; height: 600px; border-radius: 30px; border: 1px solid #ccc; } 
+
+/* 수질관리대행-폐수 */
+.p01-sub p { font-size: 20px; text-align: center; margin-bottom: 50px; line-height: 1.5; } 
+
+.p01-sub h3 { font-size: 20px; font-family: 'GmarketSansBold'; margin-bottom: 40px; padding-left: 15px; position: relative; } 
+
+.p01-sub h3::before { content: ""; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background-color: #a7e04a; } 
+.p01-sub h3::after { content: ""; position: absolute; top: -50px; left:0; width: 100%; height: 1px; border-top: 1px solid #ccc; } 
+.treatment-waterWrap h3::after { content: ""; position: absolute; top: -50px; left:0; width: 1300px; height: 1px; border-top: 1px solid #ccc; } 
+.p01-sub img { box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; } 
+
+.p01-sub span { color: #828282; font-family: 'GmarketSansMedium'; } 
+
+#sub-water-waste div { width: 100%; margin-top: 50px; padding: 0 300px 50px 300px; } 
+
+.sub-water-waste-pdf img { width: 500px; } 
+
+.sub-water-waste-img ul { width: 100%; display: flex; } 
+
+.sub-water-waste-img ul li { width: 50%; } 
+
+.sub-water-waste-img ul li img { width: 650px; height: 500px; } 
+
+/* 수질관리대행 - 오수처리 */
+#sub-water-sewage div { width: 100%; margin-top: 50px; padding: 0 300px 50px 300px; } 
+
+.sub-water-sewage-pdf img { width: 500px; } 
+
+.sub-water-sewage-img ul { width: 100%; display: flex; } 
+
+.sub-water-sewage-img ul li { width: 50%;}
+
+.sub-water-sewage-img ul li img ,.sub-septic-img ul li img { width: 650px; height: 500px; } 
+
+
+
+
+/* 수처리시설공사-폐수처리 */
+#sub-treatment-water div { width: 100%; margin-top: 80px; padding: 0 300px 50px 300px; } 
+
+.sub-treatment-water-img ul { width: 100%; display: flex; flex-flow: row wrap; justify-content: space-between; } 
+
+.sub-treatment-water-img ul li img { width: 650px; height: 500px; } 
+.treatment-waterWrap { flex-flow: row wrap; margin-bottom: 100px;}
+.treatment-waterWrap li:nth-of-type(1) p { text-align: left; padding-left: 20px; margin-bottom: 40px; font-size: 18px; } 
+
+.treatment-waterWrap li:not(.treatment-waterWrap li:nth-of-type(1)) p { text-align: start; font-size: 16px; margin: 0 0 5px 5px; padding-left: 15px; color: #696969; position: relative; } 
+
+.treatment-waterWrap li:not(.treatment-waterWrap li:nth-of-type(1)) p::before { content: ""; position: absolute; top: 40%; left: 0; width: 5px; height: 5px; border-radius: 50%; background-color: #a7e04a; } 
+
+.treatment-waterWrap { flex-flow: column; } 
+
+.treatment-water-detail p { display: flex; flex-flow: column; justify-content: center; text-align: start; } 
+
+/* 수처리서설공사 - 오수처리 */
+#sub-treatment-sewage div { width: 100%; margin-top: 80px; padding: 0 300px; } 
+.treatment-sewageWrap { margin-bottom: 100px; } 
+
+.treatment-sewageWrap li:nth-of-type(1) p { text-align: left; padding-left: 20px; margin-bottom: 40px; font-size: 18px; } 
+.treatment-sewage-detail { display: flex; justify-content: space-between; flex-flow: row wrap; } 
+/* 질소,인 고도처리장치 이미지 디자인 */
+
+.MBR h4 { font-size: 20px; margin-bottom: 10px; padding-left: 15px; position: relative;}
+.MBR h4::before { content: ""; position: absolute; top: 40%; left: 0; width: 5px; height: 5px; border-radius: 50%; background-color: #a7e04a; } 
+
+.MBR p { text-align: start; font-size: 18px; color: #3f3f3f; padding-left: 20px; margin-bottom: 80px; } 
+
+.MBR .MBR-detail { display: flex; align-items: center; justify-content: space-between; } 
+.MBR-detail-list { width: 620px; margin: 25px 0; padding: 35px; border-radius: 15px; background-color: #eeeeee; } 
+.MBR-detail-list li { padding: 10px 25px; position: relative; } 
+.MBR-detail-list li::before { content: ""; position: absolute; top: 40%; left: 0; width: 10px; height: 3px; background-color: #64a23b; } 
+
+/* 표 디자인 시작 */
+.MBR-table { border-collapse: collapse; width: 100%; } 
+
+.MBR-table tr:nth-child(even) { background-color: #ebebeb; } 
+.MBR-table th, .MBR-table td { border: 1px solid #dddddd; text-align: center; padding: 15px; } 
+
+.MBR-table .green { background-color: #64a23b; color: #fff; } 
+.MBR-table tr:last-of-type { border-bottom: 2px solid #64a23b; } 
+/* 표 디자인 끝 */
+
+/* 서브 게시판 */
+
+
+ #sub_intro_int { padding: 0 200px 80px; display: flex; flex-flow: column; align-items: center; width: 1200px; margin: 0 auto; } 
+
+#sub_intro_int > h2 { margin: 80px 0; font-size: 40px; color: #000; } 
+.sub-contents { border-top: 1px solid #ccc; display: flex; flex-flow: column; justify-content: center; } 
+.sub-contents h3 { margin-top: 5px; font-size: 30px; color: #ccc; } 
+.sub-contents .pic-box { margin: 5px 0 50px 0; } 
+.sub-contents .pic-box ul { display: flex; } 
+.sub-contents .pic-box ul li { margin: 5px; } 
+.sub-contents .pic-box ul li img { width: 400px; height: 520px; } 
+
+.sub-contents .txt-box { margin-bottom: 50px; } 
+.sub-contents .txt-box p { font-size: 18px; line-height: 30px; margin-bottom: 10px; } 
+
+.sub-contents .list-box { padding: 60px; background: #f5f5f5; } 
+.sub-contents .list-box ul { margin: 0 -20px; } 
+.sub-contents .list-box ul li { width: calc(33.33% - 40px); float: left; margin: 0 20px 10px 0; padding-left: 15px; font-size: 20px; color: #333; font-weight: 500; position: relative; } 
+.sub-contents .list-box ul li::before { position: absolute; content: ""; left: 0; top: 11px; width: 5px; height: 5px; border-radius: 30px; background: #f00; } 
+.sub-contents .list-box ul:after { content: ""; display: block; clear: both; } 
+
+/* - result */
+#sub_result { padding: 0 200px 80px; display: flex; flex-flow: column; align-items: center; width: 1200px; margin: 0 auto; } 
+
+#sub_result > h2 { margin: 80px 0; font-size: 40px; color: #000; } 
+
+/* -customer */
+#sub_customer { padding: 0 200px 80px; display: flex; flex-flow: column; align-items: center; width: 1200px; margin: 0 auto; } 
+
+#sub_customer > h2 { margin: 80px 0; font-size: 40px; color: #000; } 
+
+
+#subContent { padding: 100px; } 
+.sub-title { text-align: center; margin-bottom: 110px; } 
+.sub-title h2 { font-size: 40px; } 
+.cm_police_style_01 .textareainfo { width: 100%; border: 1px solid #ddd; min-height: 300px; background: #f4f4f4; padding: 50px 30px; font-size: 16px; color: #666; font-family: 'Paperlogy'; } 
+.cm_police_style_01 .emailinfo .info_box { display: flex; align-items: center; flex-wrap: wrap; background: #f4f4f4; border: 1px solid #ddd; border-radius: 10px; padding: 30px; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec { margin: 50px 0; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec h5 { font-size: 21px; padding-left: 15px; margin-bottom: 25px; position: relative; color: #222; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec .detail-txt-con ol > li { font-size: 18px; color: #4e4e4e; margin-bottom: 25px; font-weight: 500; word-break: keep-all; line-height: 1.5; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec .detail-txt-con ol > li > ul { margin-top: 10px; } 
+
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec .detail-txt-con ol > li > ul > li { font-size: 16px; color: #666; margin-bottom: 5px; font-weight: 400; line-height: 1.5; } 
+
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec { margin: 50px 0; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec h5 { font-size: 21px; padding-left: 15px; margin-bottom: 25px; position: relative; color: #222; } 
+.cm_police_style_01 .emailinfo .emailinfo-detail .detail-sec h5:before { content: ''; position: absolute; left: 0; width: 5px; height: 100%; background: #f00; } 
+
+.login_box { text-align: center; margin: 6rem 0;} 
+.login-box { width: 100%; height: auto; border: 1px solid #ccc; border-top: 3px solid #111111; padding: 100px 10px; display: flex; justify-content: center; } 
+.login_box tr { display: flex; flex-flow: row wrap; justify-content: center; align-items: center; } 
+.txt_01 { font-size: 20px; font-weight: 500; padding-right: 30px; } 
+.form_02 .box { border: 1px solid #ccc; width: 20em; padding: 10px; margin-right: 30px; } 

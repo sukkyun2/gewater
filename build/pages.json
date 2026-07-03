@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "index",
+    "file": "index.html",
+    "title": "지이환경 - 화성 수질관리대행, 수처리시설공사, 환경컨설팅",
+    "description": "지이환경-화성 수질관리대행, 수처리시설공사,환경컨설팅,폐수처리,오수처리,가축분뇨처리,정화조시설,배출시설인허가,환경컨설팅.",
+    "keywords": "지이환경,화성폐수처리,화성오수처리, 화성정화조, 화성폐수처리대행, 화성오수처리대행, 화성정화조대행, 화성수질관리대행,화성수처리공사, 화성폐수처리시설, 화성오수처리시설,화성가축분뇨시설."
+  },
+  { "slug": "company-greeting", "file": "company-greeting.html", "title": "인사말 - 지이환경", "description": "지이환경 인사말 안내입니다.", "keywords": "지이환경,회사소개,인사말" },
+  { "slug": "company-location", "file": "company-location.html", "title": "오시는길 - 지이환경", "description": "지이환경 오시는 길 안내입니다.", "keywords": "지이환경,회사소개,오시는길,찾아오시는길" },
+  { "slug": "water-mgmt-wastewater", "file": "water-mgmt-wastewater.html", "title": "폐수처리 시설 - 수질관리대행 - 지이환경", "description": "지이환경 폐수처리시설 관리대행 안내입니다.", "keywords": "지이환경,수질관리대행,폐수처리시설" },
+  { "slug": "water-mgmt-sewage", "file": "water-mgmt-sewage.html", "title": "오수처리 시설 - 수질관리대행 - 지이환경", "description": "지이환경 오수처리시설 관리대행 안내입니다.", "keywords": "지이환경,수질관리대행,오수처리시설" },
+  { "slug": "water-mgmt-septic", "file": "water-mgmt-septic.html", "title": "정화조 시설 - 수질관리대행 - 지이환경", "description": "지이환경 정화조시설 관리대행 안내입니다.", "keywords": "지이환경,수질관리대행,정화조시설" },
+  { "slug": "construction-wastewater", "file": "construction-wastewater.html", "title": "폐수처리 시설 - 수처리시설공사 - 지이환경", "description": "지이환경 폐수처리시설 공사 안내입니다.", "keywords": "지이환경,수처리시설공사,폐수처리시설" },
+  { "slug": "construction-sewage", "file": "construction-sewage.html", "title": "오수처리 시설 - 수처리시설공사 - 지이환경", "description": "지이환경 오수처리시설 공사 안내입니다.", "keywords": "지이환경,수처리시설공사,오수처리시설" },
+  { "slug": "construction-livestock", "file": "construction-livestock.html", "title": "가축분뇨처리 시설 - 수처리시설공사 - 지이환경", "description": "지이환경 가축분뇨처리시설 공사 안내입니다.", "keywords": "지이환경,수처리시설공사,가축분뇨처리시설" },
+  { "slug": "consulting-permit", "file": "consulting-permit.html", "title": "배출시설 인허가 - 환경컨설팅 - 지이환경", "description": "지이환경 배출시설 인허가 컨설팅 안내입니다.", "keywords": "지이환경,환경컨설팅,배출시설인허가" },
+  { "slug": "consulting-technical", "file": "consulting-technical.html", "title": "기술진단 및 지원 - 환경컨설팅 - 지이환경", "description": "지이환경 기술진단 및 지원 컨설팅 안내입니다.", "keywords": "지이환경,환경컨설팅,기술진단,기술지원" },
+  { "slug": "contact", "file": "contact.html", "title": "문의하기 - 지이환경", "description": "지이환경 문의하기입니다.", "keywords": "지이환경,문의하기" },
+  { "slug": "notice", "file": "notice.html", "title": "공지사항 - 지이환경", "description": "지이환경 공지사항입니다.", "keywords": "지이환경,공지사항" },
+  { "slug": "gallery", "file": "gallery.html", "title": "작업사진란 - 지이환경", "description": "지이환경 작업사진란입니다.", "keywords": "지이환경,작업사진란" },
+  { "slug": "privacy-policy", "file": "privacy-policy.html", "title": "개인정보처리방침 - 지이환경", "description": "지이환경 개인정보처리방침입니다.", "keywords": "지이환경,개인정보처리방침" },
+  { "slug": "privacy-collection", "file": "privacy-collection.html", "title": "이메일무단수집거부 - 지이환경", "description": "지이환경 이메일무단수집거부 안내입니다.", "keywords": "지이환경,이메일무단수집거부" }
+]

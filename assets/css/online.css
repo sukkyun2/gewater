@@ -1,0 +1,50 @@
+/**************************************
+    �쇰찓�� �ㅽ��� 01 :: �쇰컲 �쇰찓�� �꾩슜
+***************************************/
+/* �쇰찓�� �곸뿭 �ㅼ젙 怨듯넻 */
+.form-area
+{max-width:800px; margin:0 auto;}
+.form-area tr, .form-area td, .form-area th
+{font-family:'GmarketSansMedium';}
+
+
+/* STYLE 01 - �쇰컲 �쇰찓�� */
+#cm_formmail_style_01 .form-wrap table
+{width:100%; border-collapse: collapse; background:transparent}
+#cm_formmail_style_01 .form-wrap table .formmail tr
+{border-bottom:1px solid #ddd;}
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_title_bgcolor
+{font-family:'GmarketSansMedium', 'nanumsquare'; padding:20px 0; font-size:15px; font-weight:600; color:#222;}
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor
+{padding:5px;}
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input,
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor textarea
+{width:95%; border:1px solid #ddd; padding:10px; font-family:'GmarketSansMedium', 'nanumsqure'}
+/* �곕씫泥� */
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='phone_no1'],
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='phone_no2'],
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='phone_no3'],
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='mobile_no1'],
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='mobile_no2'],
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[name='mobile_no3']
+{width:29%;}
+
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[type='radio']
+{width:auto;}
+/* 泥댄겕諛뺤뒪 */
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[type='checkbox']
+{display:inline-block; width:auto; margin:10px 0 15px;}
+/* �뚯씪泥⑤� */
+#cm_formmail_style_01 .form-wrap .formmail td.formmail_cell_bgcolor input[type='file']
+{border:none;}
+/* �섎떒 踰꾪듉 (HTML �쒓렇�� form-btn class 異붽� �� �섏젙) */
+#cm_formmail_style_01 .form-wrap .form-btn ul li
+{display:inline-block; width:200px; margin:0 10px;;}
+#cm_formmail_style_01 .form-wrap .form-btn ul li a
+{padding:15px 0; display:block; background:#ddd; font-size:15px; color:#222; }
+#cm_formmail_style_01 .form-wrap .form-btn ul li:nth-child(1) a
+{ background:#64a23b; color:#fff;}
+#cm_formmail_style_01 .form-wrap .form-btn ul li a:hover
+{opacity:.8}
+
+

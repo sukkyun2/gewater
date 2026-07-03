@@ -1,0 +1,385 @@
+
+/*************************************
+    LIST
+**************************************/
+/****** CM BOARD STYLE 02 ******/
+#cm_board_style_02
+{font-family:'Pretendard', 'Noto Sas Kr';}
+/* �좏깉 寃뚯떆湲� */
+.bbs-top-list
+{margin-bottom:20px;}
+.bbs-top-list .total-list-con .total
+{font-size:15px; font-weight:300; color:#222;}
+.bbs-top-list .total-list-con .total .total-count
+{padding-left:5px; font-weight:800; color:#23307c;}
+/* 寃��됱갹 */
+#cm_board_style_02 .bbs-search-box #search_table
+{width:auto;}
+#cm_board_style_02 .bbs-search-box #search_table > tbody > tr
+{display:flex; align-items:stretch;}
+#cm_board_style_02 .bbs-search-box .est_cate_cell
+{width:80px;}
+#cm_board_style_02 .bbs-search-box .est_cate_cell select
+{width:100%; height:100%; border:1px solid #ddd; padding:0 5px; font-size:15px; color:#333; font-weight:300; letter-spacing:1px;}
+#cm_board_style_02 .bbs-search-box .est_keyword_cell #search_display1
+{height:100%;}
+#cm_board_style_02 .bbs-search-box .est_keyword_cell #search_display1 input
+{width:100%; height:100%; border:1px solid #ddd; border-left:0; border-right:0; vertical-align:top;}
+
+#cm_board_style_02 .bbs-search-box .est_btn_cell input {
+    vertical-align:top;
+    width:100%;
+    height:100%;
+    font-family:'Font Awesome 5 Free';
+    font-weight:900;
+
+    background:#295496;
+    border:none;
+    color:#fff;
+}
+
+
+/* 由ъ뒪�� */
+#cm_board_style_02 .bbs-list-tbl tr
+{border-bottom:1px solid #ddd; transition: all 0.3s ease;}
+#cm_board_style_02 .bbs-list-tbl td.att_title
+{font-size:17px; border-top:2px solid #000; background:#f7f7f7; padding:15px 10px; color:#333;}
+#cm_board_style_02 .bbs-list-tbl td.att_title font
+{font-weight:500 !important; color:#222 !important; font-size:17px !important;}
+#cm_board_style_02 .bbs-list-tbl td
+{font-size:17px; color:#333; padding:20px 10px;}
+#cm_board_style_02 .bbs-list-tbl td.bbsno
+{font-weight:600; color:#ccc;}
+#cm_board_style_02 .bbs-list-tbl td.bbsnewf5 a
+{font-family:'Pretendard'; color:#333; font-weight:500;}
+#cm_board_style_02 .bbs-list-tbl td.bbsetc_dateof_write
+{font-size:15px; color:#a9a9a9;}
+#cm_board_style_02 .bbs-list-tbl tr:nth-child(n+2):hover 
+{background: #f1f3f7;}
+/* ��젣 �대룞 蹂듭궗 */
+#cm_board_style_02 .board_admin_bgcolor
+{padding-top:50px;}
+#cm_board_style_02 .board_admin_bgcolor > table > tbody > tr
+{display:flex; align-items:center;}
+#cm_board_style_02 .board_admin_bgcolor > table > tbody > tr > td
+{font-size:15px !important;; color:#666;}
+@media screen and (max-width:900px) {
+    #cm_board_style_02.table-fixed
+    {width:900px;}
+}
+/*************************************
+    WEBZINE
+**************************************/
+/* �뱀쭊 */
+#cm_webzine_style_01 .webzine_type2 .webzine_type2_table_line
+{}
+#cm_webzine_style_01 .webzine_type2 > tbody > tr 
+{display:flex; align-items:stretch; transition:all 0.15s ease;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_img_td .webzine_type_img img 
+{min-width:200px; min-height:200px; border:none; vertical-align: top; transition:all 0.15s ease;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left
+{padding:15px 0 15px 3%;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left dl 
+{display:flex; flex-wrap:wrap; align-items:stretch; height:100%;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left dl dd 
+{border:none; height:auto;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left dl dd .obj_value 
+{padding:0;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left .webzine_subject .news_title 
+{font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important;  font-size:24px; font-weight:500; color:#000; display:block; padding-bottom:15px; transition:all 0.15s ease;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left .webzine_description a 
+{font-family:'Pretendard'; font-weight:300; font-size:17px; color:#222; padding-bottom:10px; display:block; transition:all 0.15s ease;}
+#cm_webzine_style_01 .webzine_type2 .webzine_type_text_td_left .webzine_dateof_write span.obj_value
+{font-family:'Pretendard'; font-size:15px; font-weight:300; color:#666; padding-top:30px; display:block;}
+
+#cm_webzine_style_01 .webzine_type2 > tbody > tr:hover .webzine_type_img_td .webzine_type_img img 
+{opacity:.8;}
+#cm_webzine_style_01 .webzine_type2 > tbody > tr:hover .webzine_type_text_td_left .webzine_subject .news_title 
+{color:#a6ae4e}
+#cm_webzine_style_01 .webzine_type2 > tbody > tr:hover .webzine_type_text_td_left .webzine_description a 
+{color:#4e4e4e}
+
+/*************************************
+    GALLERY
+**************************************/
+/****** CM GALLEY 3 COL ******/
+.glist3t 
+{width:100%;}
+.glist3t tr
+{display:inline; font-size:0; width:100%;}
+.glist3t td
+{display: inline-block; text-align: center; vertical-align: middle; margin-bottom: 10px;}
+.glist3t td table
+{width: 96%; margin:0 auto;}
+.glist3t img 
+{max-width: 100%; min-height: 100%; width: 100%; height: 250px; object-fit: cover; object-position: center; transition: .3s ease;}
+.glist3t > tbody > tr > td:hover img 
+{opacity: .6;}
+.glist3t .board_admin_bgcolor table
+{display: none;}
+/*.glist3t input[type=checkbox], .glist3t input[type=radio]{display: none;}*/
+.glist3t .gallery_title 
+{font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important;  color:#666 !important; font-size:16px!important; padding-top: 10px; transition: all 0.5s;}
+.glist3t > tbody > tr > td:hover .gallery_title 
+{color: #0669bf!important;}
+.pagelist
+ {text-align: center;}
+ 
+@media screen and (max-width:1200px){
+    .glist3t tr
+    { display:inline-block; font-size:0;}
+}
+
+@media screen and (max-width:1023px){
+    .glist3t img
+    {height:180px;}
+}
+@media screen and (max-width:767px){
+    .glist3t > tbody > tr > td
+    {width:100%;}
+}
+@media screen and (max-width:450px) {
+    .glist3t > tbody > tr > td td.bbsnewf5 
+    {width:100%;}
+    .glist3t > tbody > tr > td td.bbsnewf5 > table 
+    {margin:0; width:100%;;}
+    .glist3t > tbody > tr > td td.bbsnewf5 > table > tbody > tr > td 
+    {width:100%;}
+    .glist3t > tbody > tr > td td.bbsnewf5 > table > tbody > tr > td img 
+    {height:300px;}
+}
+
+ /*************************************
+    GALLERY CM STYLE 02 
+**************************************/
+#cm_gallery_style_02 
+{width:100%;}
+#cm_gallery_style_02 tr
+{display:inline-block;  width:100%; text-align:left;}
+#cm_gallery_style_02 td
+{display: inline-block; text-align: center; vertical-align: middle; margin-bottom: 10px;}
+#cm_gallery_style_02 td table
+{width: 96%; margin:0 auto;}
+#cm_gallery_style_02 img 
+{max-width: 100%; min-height: 100%; width: 100%; height: 250px; object-fit: cover; object-position: center; transition: .3s ease;}
+#cm_gallery_style_02 .gallery_subject 
+{text-align:left !important;}
+#cm_gallery_style_02 .gallery_title 
+{font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important;  color:#222 !important; font-size:21px; padding-top: 10px; transition: all 0.5s;}
+#cm_gallery_style_02 .gallery_subject .gallery_cont 
+{font-size:17px; color:#666; font-weight:300;}
+#cm_gallery_style_02 .gallery_etc ,
+#cm_gallery_style_02 .gallery_etc font 
+{font-size:14px !important; color:#666 !important;}
+#cm_gallery_style_02 > tbody > tr > td:hover img 
+{opacity: .6;}
+#cm_gallery_style_02 .board_admin_bgcolor table
+{display: none;}
+
+#cm_gallery_style_02 > tbody > tr > td:hover .gallery_title 
+{color: #0669bf!important;}
+.pagelist
+ {text-align: center;}
+
+ /*寃뚯떆�� �섏씠吏��ㅼ씠��*/
+.paging 
+{color: #0669bf!important;padding-top: 30px!important;font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important; }
+.paging b, .pagelist b,#sec-notice #container_list #paing_table tr .ept_link_cell b
+{background: #0669bf; color: #fff; width: 30px; height: 30px; display: inline-block; border-radius: 100%; line-height: 30px; font-weight: 400; border: none;}
+.paging a:link 
+{font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important;}
+
+.glist3t .news_title 
+{font-family:'pretendard', 'Noto Sans KR', 'Roboto', sans-serif !important;  color:#222 !important; font-size:16px!important; transition: all 0.5s;}
+.glist3t .news_title:hover 
+{color:#0669bf!important;}
+
+/*************************************
+    VIEW
+**************************************/
+/****** CM BOARD STYLE 02 ******/
+/* 酉고럹�댁� */
+#cm_view_style_02 .board_bgcolor
+{background:#f4f4f4; padding:15px 0;}
+#cm_view_style_02 .board_bgcolor > font
+{font-size:15px !important; color:#333 !important; font-weight:600; font-family:'Pretendard'}
+#cm_view_style_02 .board_desc
+{font-size:15px; color:#666; padding:0 20px;}
+#cm_view_style_02 #post_area 
+{font-size:16px;}
+@media screen and (max-width: 1240px) {
+    #cm_view_style_02 #post_area img 
+    {width:100% !important;}
+}
+/*************************************
+    WRITE
+**************************************/
+/****** CM BOARD STYLE 02 ******/
+/* 湲��곌린 �섏씠吏� */
+#cm_write_style_02 .board .board_bgcolor
+{padding:15px 0;}
+#cm_write_style_02 .board .board_bgcolor span
+{font-size:15px !important; color:#333 !important}
+#cm_write_style_02 .board .board_desc
+{padding:0 20px; color:#666;}
+#cm_write_style_02 .board .board_desc input#border
+{border:1px solid #bbb;padding:3px;}
+#cm_write_style_02 .board .board_desc input#border.public_input.input_form ,input#border.public_input.input_form
+{width: 99%;}
+#cm_write_style_02 .board_confirm
+{margin-top:20px;}
+#cm_write_style_02 .board_confirm .bbsnewf5 input
+{margin:0;}
+/*************** VIEW PAGE *****************/
+/* 酉� �섏씠吏� 怨듯넻 */
+.cm_board_view .board_bgcolor font,
+.cm_board_view .board_desc
+{font-family:'pretendard' !important; font-size:16px !important; color:#666 !important;}
+/* 媛� �� */
+.cm_board_view .board_bgcolor
+{padding:15px 0px;}
+.cm_board_view .board_description
+{padding:20px;}
+#cm_write_style_02 .board .board_desc br {display: none;}
+
+@media (max-width: 767px){
+    
+    #ext_search {min-width: 100%!important;}
+    #search_table {margin: 0 auto;}
+    .bbs .board td.att_title font
+    {font-size:15px !important;}
+    .bbs .board td {padding: 5px;font-size: 14px;}
+    .bbs .board td a {font-size: 14px;word-break: keep-all;}
+    .bbs .board td.bbsetc_dateof_write, .bbs td.bbsdescription {font-size: 12px;}
+}
+
+
+
+/*************************************
+    OUTPUT * LIST
+**************************************/
+#cm_output_board_list .board_output tbody 
+{display:inline-block; width:100%;}
+#cm_output_board_list .board_output tr
+{display:inline-block; width:100%; margin-bottom:10px;}
+#cm_output_board_list .board_output tr td:first-child
+{display:none;}
+#cm_output_board_list .board_output tr td
+{display:inline-block;}
+#cm_output_board_list .board_output tr td.bd_out1
+{position:relative; padding-left:15px;}
+#cm_output_board_list .board_output tr td.bd_out1:before 
+{content:''; position:absolute; width:3px; height:3px; border-radius:50%; background:#00a0e8; left:0; top:50%; transform:translateY(-50%);}
+#cm_output_board_list .board_output tr td.bd_out1 a 
+{font-family:'pretendard' !important; color:#7a7a7a; font-size:15px !important; font-weight:600;}
+#cm_output_board_list .board_output tr td:last-child 
+{font-size:15px; color:#a7a7a7; font-weight:700;}
+@media screen and (max-width:650px) {
+    #cm_output_board_list .board_output tr td.bd_out1 
+    {padding:0; width:65%;}
+    #cm_output_board_list .board_output tr td.bd_out1:before
+    {display:none;}
+    #cm_output_board_list .board_output tr td:last-child
+    {width:35%;}
+}
+/*************************************
+    OUTPUT * GALLERY 
+**************************************/
+#cm_output_board_gallery .board_output > tbody > tr > td 
+{width:25%; transition:all 0.3s ease;}
+#cm_output_board_gallery .board_output_gallery_img 
+{padding:0 10px;}
+#cm_output_board_gallery .board_output_gallery_img img
+{width:100%; vertical-align:middle;}
+#cm_output_board_gallery .board_output_gallery_subject 
+{margin-bottom:30px; display:block;}
+#cm_output_board_gallery .board_output_gallery_subject a 
+{font-family:'Pretendard' !important; display:block; padding:15px 0px; font-size:18px; color:#000000; font-weight:600; background:#f7f7f7; margin:0 10px; transition:all 0.3s ease;}
+#cm_output_board_gallery .board_output_gallery_img img:hover
+{opacity:.7}
+#cm_output_board_gallery .board_output_gallery_subject a:hover
+{text-decoration:none; opacity:.7}
+@media screen and (max-width:1023px){
+    #cm_output_board_gallery .board_output > tbody > tr > td
+    {width:50%; display:inline-block;}
+}
+@media screen and (max-width:650px) {
+    #cm_output_board_gallery .board_output > tbody > tr > td 
+    {width:100%;}
+}
+/*************************************
+    OUTPUT * GALLERY * SLIDE
+**************************************/
+#cm_output_board_gallery_slide 
+{position:relative;}
+#cm_output_board_gallery_slide > .board_output
+{display:block;}
+#cm_output_board_gallery_slide > .board_output > tbody 
+{display:block;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide
+{margin:0 10px; height: auto;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide tr:nth-child(2)
+{}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide .board_output_gallery_subject
+{font-size:16px; text-align:center; display:block; font-family:'Pretendard' !important;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide .board_output_gallery_subject a
+{font-size:16px; text-align:center; display:block; font-family:'Pretendard' !important; padding:15px 0px; background:#e4e3c3; font-weight:600; color:#111111;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide img 
+{width:100%; height:300px; vertical-align:middle; display:inline-block;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-slide .board_output_gallery_subject:hover a
+{font-size:16px; text-align:center; display:block; font-family:'Pretendard' !important; padding:15px 0px;}
+/* ARROW CUSTOM */
+#cm_output_board_gallery_slide .slick-arrow 
+{position:absolute; top:50%; transform:translateY(-100%); font-size:0; width:24px; height:45px;}
+#cm_output_board_gallery_slide .slick-arrow.slick-prev
+{left:-50px;}
+#cm_output_board_gallery_slide .slick-arrow.slick-next
+{right:-50px;}
+/* DOTS CUSTOM */
+#cm_output_board_gallery_slide > .board_output > tbody .slick-dots 
+{display:flex; justify-content: center; margin-top:20px;;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-dots li 
+{width:10px; height:10px; border-radius:50px; background:#ddd; margin:0 5px;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-dots li.slick-active
+{width:30px; background:#00a0e8;}
+#cm_output_board_gallery_slide > .board_output > tbody .slick-dots button 
+{font-size:0;}
+@media screen and (max-width:650px) {
+    #cm_output_board_gallery_slide > .board_output > tbody .slick-slide img
+    {height:240px;}
+}
+
+
+/*************************************
+    BOARD CATEGORY
+**************************************/
+#cm_category_style_01 .bbs-category-con .bbs-category {
+  display:flex;
+  margin:0 -5px;
+}
+#cm_category_style_01 .bbs-category-con .bbs-category li {
+  margin:1% 5px;
+}
+#cm_category_style_01 .bbs-category-con .bbs-category li a {
+  border:1px solid #ddd;
+  border-radius:5px;
+  background:#f4f4f4;
+  display:inline-block;
+  padding:10px 30px;
+  font-size:17px;
+  color:#666;
+  font-weight:500;
+}
+#cm_category_style_01 .bbs-category-con .bbs-category li.active a {
+  background:var(--sub-color);
+  color:#fff;
+}
+
+@media screen and (max-width: 767px) {
+.board-content
+{overflow-x:scroll}
+#cm_board_style_02 .bbs-list-tbl td.bbsnewf5 a    
+{white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+}
