@@ -27,12 +27,14 @@ python3 -m http.server 8765
 
 ## 원본과 다르게 처리한 부분 (반드시 확인해 주세요)
 
-1. **문의하기 폼(`contact.html`)이 실제로 전송되지 않습니다.**
+1. **문의하기 폼(`contact.html`)은 Netlify Forms로 동작하도록 연결되어 있습니다.**
    원본은 Cafe24 호스팅사의 폼메일 서버로 데이터를 전송했는데, 이 백엔드는 새 호스팅에서 쓸 수
-   없습니다. 화면과 입력 필드는 원본과 동일하게 재현했지만, "보내기"를 누르면 실제 전송 대신
-   "준비 중입니다. 전화(031-225-8360) 또는 이메일(ge8360@naver.com)로 연락 부탁드립니다"라는
-   안내 문구만 표시됩니다. 실제로 폼을 동작시키려면 별도의 폼 전송 서비스(이메일 API, 서버리스
-   함수 등)를 연결해야 합니다.
+   없어서 대신 Netlify의 무료 폼 처리 기능(Netlify Forms)에 연결했습니다. `<form>`에
+   `data-netlify="true"`와 `form-name` hidden 필드, 스팸 방지용 honeypot 필드(`bot-field`)를
+   추가했고, "보내기" 클릭 시 JS가 `fetch()`로 실제 제출 후 성공/실패 안내 메시지를 보여줍니다.
+   **단, 이 기능은 Netlify에 배포했을 때만 동작합니다** — GitHub Pages 등 다른 호스팅에 올리거나
+   로컬 `python -m http.server`로 열면 제출이 실패합니다(아래 "Netlify 배포" 섹션 참고). 접수된
+   문의는 Netlify 대시보드의 Forms 메뉴에서 확인하거나, 이메일 알림으로 받도록 설정할 수 있습니다.
 
 2. **공지사항(`notice.html`)·작업사진란(`gallery.html`)은 이전 시점의 스냅샷입니다.**
    원본은 관리자가 게시물을 추가/삭제할 수 있는 Cafe24 게시판이었지만, 정적 사이트에는 그런
@@ -70,6 +72,25 @@ python3 -m http.server 8765
 이 세 가지는 Cafe24 자체 호스팅 백엔드가 아닌 공개 서비스라 그대로 유지했습니다. 반대로 원본의
 Cafe24 전용 스크립트(`/cjs/formmail.js`, `/cjs/board.js`, `/cjs/javascript.lib.js`, 방문자 로그
 비콘 `blg-jsk.cafe24.com/weblog.js`)는 새 호스팅에서 동작하지 않으므로 전부 제거했습니다.
+
+## Netlify 배포
+
+이 저장소에는 `netlify.toml`이 이미 포함되어 있어 별도 빌드 설정 없이 바로 연결할 수 있습니다.
+
+1. https://app.netlify.com 에서 "Add new site" → "Import an existing project" → GitHub 선택 후
+   `sukkyun2/gewater` 저장소를 선택합니다.
+2. Build command는 비워두고, Publish directory는 `.`(저장소 루트)로 둡니다. `netlify.toml`이
+   이미 이렇게 지정되어 있어 보통 자동으로 채워집니다.
+3. 배포가 끝나면 Netlify가 `xxx.netlify.app` 형태의 임시 주소를 줍니다. 여기서 먼저 페이지들이
+   잘 뜨는지, 문의하기 폼이 실제로 접수되는지 확인해 보세요.
+4. **Forms 활성화 확인**: Site settings → Forms 메뉴에 "contact"라는 이름의 폼이 자동으로
+   잡혀 있어야 합니다(정적 HTML을 배포할 때 Netlify가 자동으로 폼을 스캔합니다). 잡혀 있지
+   않다면 재배포(Trigger deploy)를 한 번 더 해보세요.
+5. **알림 이메일 설정**: Site settings → Forms → Form notifications 에서 "Email notification"을
+   추가하면, 문의가 들어올 때마다 지정한 이메일(예: ge8360@naver.com)로 알림을 받을 수 있습니다.
+6. **커스텀 도메인 연결**: Site settings → Domain management → Add a domain 에서 구매한 도메인을
+   입력하면 필요한 DNS 값(ALIAS/CNAME 또는 Netlify DNS 네임서버)을 안내해 줍니다. 도메인
+   등록대행사(가비아/후이즈 등)에서 그 값을 그대로 등록하면 HTTPS 인증서까지 자동으로 발급됩니다.
 
 ## build/ 폴더
 
